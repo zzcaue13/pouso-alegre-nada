@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pouso Alegre Premium Aquacenter</title>
+    <!--
+      Esta landing page foi criada como parte de um projeto de negócio
+      para uma escola de natação premium com sauna em Pouso Alegre.
+      A página utiliza design moderno com seções claras para apresentar
+      a proposta de valor, planos e um pequeno jogo para engajar os
+      visitantes. O arquivo principal de estilos encontra‑se em
+      `style.css` e a lógica do quiz está em `script.js`.
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero section com imagem de fundo e slogan multilingue -->
+    <header class="hero">
+      <div class="overlay">
+        <!-- Título principal em esperanto, conforme solicitado -->
+        <h1>Feliĉa Surteriĝo</h1>
+        <p class="subtitle">
+          Pouso Alegre em português, Aterrizaje Feliz em espanhol,
+          Iloinen Laskeutuminen em finlandês
+        </p>
+        <p>Bem‑vindo à sua nova experiência em natação e bem‑estar</p>
+        <a href="#experiencia" class="btn btn-primary">Quero saber mais</a>
+      </div>
+    </header>
+
+    <!-- Seção de experiência premium -->
+    <section id="experiencia" class="experiencia">
+      <h2>Experiência Premium</h2>
+      <div class="features">
+        <div class="feature">
+          <img src="assets/hero.png" alt="Piscina" />
+          <h3>Piscina Climatizada</h3>
+          <p>
+            Treine em uma piscina semi‑olímpica climatizada com tratamento
+            salino e iluminação suave.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="assets/hero.png" alt="Sauna" />
+          <h3>Sauna Finlandesa &amp; Vapor</h3>
+          <p>
+            Relaxe em saunas luxuosas inspiradas no spa Asaya, com madeira
+            clara e aromas exclusivos.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="assets/hero.png" alt="Relaxamento" />
+          <h3>Sala de Relaxamento</h3>
+          <p>
+            Descanse em espreguiçadeiras confortáveis com sons ambiente e
+            aromaterapia envolvente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de quiz interativo -->
+    <section id="quiz" class="quiz-section">
+      <h2>Traduza “Pouso Alegre” e ganhe desconto!</h2>
+      <p>
+        Como se diz “Pouso Alegre” em espanhol, finlandês ou esperanto?
+      </p>
+      <div class="quiz-input">
+        <input
+          type="text"
+          id="answerInput"
+          placeholder="Digite sua resposta aqui"
+        />
+        <button id="submitAnswer" class="btn btn-secondary">Enviar</button>
+      </div>
+      <div id="result" class="result"></div>
+    </section>
+
+    <!-- Seção de planos -->
+    <section id="planos" class="planos-section">
+      <h2>Nossos Planos</h2>
+      <div class="planos">
+        <div class="plano">
+          <h3>Plano Pouso</h3>
+          <p>
+            Acesso às aulas de natação em grupos e utilização da piscina em
+            horários livres.
+          </p>
+          <span class="price">R$ 400/mês</span>
+          <a
+            href="https://wa.me/5511999999999"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary"
+            >Quero este plano</a
+          >
+        </div>
+        <div class="plano">
+          <h3>Plano Alegre</h3>
+          <p>
+            Inclui Plano Pouso + uso ilimitado da sauna &amp; banho de vapor
+            e acesso à sala de relaxamento.
+          </p>
+          <span class="price">R$ 650/mês</span>
+          <a
+            href="https://wa.me/5511999999999"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary"
+            >Quero este plano</a
+          >
+        </div>
+        <div class="plano">
+          <h3>Plano Feliĉa Surteriĝo</h3>
+          <p>
+            O plano mais exclusivo: até 4 pessoas, com horários flexíveis e
+            descontos especiais em cursos infantis. Para quem quer viver a
+            verdadeira experiência “Pouso Alegre” em esperanto.
+          </p>
+          <span class="price">R$ 1200/mês</span>
+          <a
+            href="https://wa.me/5511999999999"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary"
+            >Quero este plano</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção sobre o esperanto -->
+    <section id="esperanto" class="esperanto-section">
+      <h2>Pouso Alegre &amp; Esperanto</h2>
+      <p>
+        Em parceria com a Embaixada do Esperanto, promovemos cursos e
+        eventos que celebram a cultura global. Saiba mais sobre a Taça
+        Esperanto de futsal, onde esporte e idioma se encontram, e
+        descubra o universo de
+        <strong>Feliĉa Surteriĝo</strong>.
+      </p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <p>
+        &copy; 2025 Pouso Alegre Premium Aquacenter. Todos os direitos
+        reservados.
+      </p>
+      <a
+        href="https://wa.me/5511999999999"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-primary"
+        >Fale conosco pelo WhatsApp</a
+      >
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
