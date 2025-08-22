@@ -15,7 +15,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: #1a2f49; /* azul escuro suave para texto */
-  background-color: ;
+  background-color: #f4f4f4;
   overflow-x: hidden;
 }
 
@@ -51,7 +51,6 @@ p {
 
 .btn-primary:hover {
   background-color: #144a83;
-  
 }
 
 .btn-secondary {
@@ -67,7 +66,8 @@ p {
 .hero {
   position: relative;
   height: 90vh;
-  background-image: urls/hero.png');
+  /* Reference the hero image at the repository root */
+  background-image: url('hero.png');
   background-size: cover;
   background-position: center;
   display: flex;
