@@ -147,46 +147,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Quiz section */
-.quiz-section {
-  padding: 4rem 1rem;
-  background-color: #f6f6f6;
-  text-align: center;
-}
-
-.quiz-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.quiz-section p {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.quiz-input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
-
-.quiz-input input {
-  padding: 0.7rem;
-  font-size: 1rem;
-  border: 1px solid #90e0ef;
-  border-radius: 4px;
-  width: 250px;
-}
-
-.result {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  color: #0077b6;
-}
 
 /* Planos section */
 .planos-section {
@@ -236,22 +196,23 @@ p {
   color: #1a5da8;
 }
 
-/* Seção Esperanto */
-.esperanto-section {
+/* Seção Sobre Nós */
+.sobre-section {
   padding: 4rem 1rem;
   background-color: #f6f6f6;
   text-align: center;
 }
 
-.esperanto-section h2 {
+.sobre-section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.esperanto-section p {
+.sobre-section p {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* Footer */
